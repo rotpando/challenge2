@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+body {background-color: rgb(38, 28, 60);
+color:white}
+
+hr {width: 400px;}
+
+.textBox{
+  max-width: 500px;
+  max-height: 500px;
+  overflow: scroll;
+  background-color: lightgray;
+  justify-content: center;
+  padding: 25px;
+}
+.textBoxContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rojo{
+  color:coral;
+}
